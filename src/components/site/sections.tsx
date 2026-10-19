@@ -267,7 +267,7 @@ export function HowItWorks() {
         <SectionHeader
           eyebrow="Three steps · one workspace"
           title="From 'Am I even eligible?' to filed petition"
-          description="No spreadsheets, no email chains, no attorneys guessing. Pathrise walks you through a diagnostic, a build phase, and a filing phase — each with concrete artifacts and full visibility."
+          description="No spreadsheets, no email chains, no attorneys guessing. US Talent Visa walks you through a diagnostic, a build phase, and a filing phase — each with concrete artifacts and full visibility."
           id="how-title"
         />
 
@@ -336,7 +336,7 @@ export function Transformation() {
           <p className="mt-4 text-base leading-relaxed opacity-80">
             Most self-petitioners burn out before they file — they piece together
             advice from Reddit, get three different answers from three attorneys, and
-            spend months second-guessing their evidence. Pathrise replaces that with a
+            spend months second-guessing their evidence. US Talent Visa replaces that with a
             structured, observable pipeline.
           </p>
         </div>
@@ -490,7 +490,7 @@ export function Testimonials() {
         <SectionHeader
           eyebrow="Real petitions · real approvals"
           title="The receipts"
-          description="Pathrise members have filed across 15+ pathways from 60+ countries. Here are six of them — every quote attached to a real approved case."
+          description="US Talent Visa members have filed across 15+ pathways from 60+ countries. Here are six of them — every quote attached to a real approved case."
           id="testimonials-title"
         />
 

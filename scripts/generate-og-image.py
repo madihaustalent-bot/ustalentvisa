@@ -140,7 +140,7 @@ def main() -> None:
 
     # Brand wordmark
     font_brand = load_font(FONT_SANS_BOLD, 28)
-    draw.text((chip_x + chip_size + 20, chip_y + 18), "PATHRISE", font=font_brand, fill=CREAM)
+    draw.text((chip_x + chip_size + 20, chip_y + 18), "US TALENT VISA", font=font_brand, fill=CREAM)
 
     font_tagline = load_font(FONT_SANS, 13)
     draw.text(

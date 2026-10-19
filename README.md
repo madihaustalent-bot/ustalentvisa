@@ -1,4 +1,4 @@
-# Pathrise — AI-Powered Talent Visa & Green Card Platform
+# US Talent Visa — AI-Powered Talent Visa & Green Card Platform
 
 A unified, single-page Next.js application combining the best strategies from
 six visa platforms (USWALA, eb2niw.info, LevelUp EB1A Experts, Tukki.ai,
@@ -64,7 +64,7 @@ git push -u origin main
 2. Sign in with GitHub
 3. Click **"Import"** on your `pathrise` repo
 4. Vercel auto-detects Next.js — click **"Deploy"**
-5. Wait ~2 minutes — you'll get a `pathrise-xxx.vercel.app` URL
+5. Wait ~2 minutes — you'll get a `ustalentvisa-xxx.vercel.app` URL
 
 ### Step 3 — Connect Your Domain
 
@@ -96,7 +96,7 @@ the site runs fine without them; analytics scripts only render when set.
 
 | Variable                          | Purpose                | Example              |
 |-----------------------------------|------------------------|----------------------|
-| `NEXT_PUBLIC_SITE_URL`            | Canonical site URL    | `https://pathrise.io` |
+| `NEXT_PUBLIC_SITE_URL`            | Canonical site URL    | `https://ustalentvisa.com` |
 | `NEXT_PUBLIC_GA_ID`               | Google Analytics 4    | `G-XXXXXXXXXX`       |
 | `NEXT_PUBLIC_META_PIXEL_ID`       | Meta/Facebook Pixel    | `123456789012345`    |
 | `NEXT_PUBLIC_LINKEDIN_PARTNER_ID` | LinkedIn Insight Tag   | `1234567`            |
@@ -186,7 +186,7 @@ git push
 
 ## Disclaimer
 
-Pathrise is an educational and tooling platform, not a law firm. Content on
+US Talent Visa is an educational and tooling platform, not a law firm. Content on
 this site is not legal advice and does not create an attorney-client relationship.
 Individual outcomes depend on facts specific to each case.
 

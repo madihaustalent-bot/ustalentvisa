@@ -23,13 +23,13 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://pathrise.io";
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://ustalentvisa.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Pathrise — AI-Powered Talent Visa & Green Card Platform",
-    template: "%s · Pathrise",
+    default: "US Talent Visa — AI-Powered Talent Visa & Green Card Platform",
+    template: "%s · US Talent Visa",
   },
   description:
     "The unified AI + expert platform for O-1A, EB-1A, EB-2 NIW, and 15+ visa pathways. Eligibility in 5 minutes, AI-drafted petitions, expert-vetted opportunities, and full attorney support — all in one place.",
@@ -45,29 +45,29 @@ export const metadata: Metadata = {
     "I-140",
     "extraordinary ability",
   ],
-  authors: [{ name: "Pathrise" }],
-  creator: "Pathrise",
-  publisher: "Pathrise",
-  applicationName: "Pathrise",
+  authors: [{ name: "US Talent Visa" }],
+  creator: "US Talent Visa",
+  publisher: "US Talent Visa",
+  applicationName: "US Talent Visa",
   category: "Legal Services",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Pathrise — AI-Powered Talent Visa & Green Card Platform",
+    title: "US Talent Visa — AI-Powered Talent Visa & Green Card Platform",
     description:
       "Eligibility in 5 minutes, AI-drafted petitions, expert-vetted opportunities, and full attorney support — all in one place. 15+ visa pathways including EB-1A, EB-2 NIW, O-1A, EB-5, L-1A, and H-1B.",
     url: SITE_URL,
-    siteName: "Pathrise",
+    siteName: "US Talent Visa",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pathrise — AI-Powered Talent Visa Platform",
+    title: "US Talent Visa — AI-Powered Talent Visa Platform",
     description:
       "Eligibility in 5 minutes, AI-drafted petitions, expert-vetted opportunities, and full attorney support — all in one place.",
-    creator: "@pathrise",
+    creator: "@ustalentvisa",
   },
   robots: {
     index: true,

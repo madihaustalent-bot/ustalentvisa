@@ -6,11 +6,14 @@
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <!-- US flag-inspired stripes in background (very subtle) -->
+  <rect x="0" y="44" width="64" height="4" fill="#FFFFFF" opacity="0.12"/>
+  <rect x="0" y="52" width="64" height="4" fill="#FFFFFF" opacity="0.12"/>
   <!-- Sparkle (Lucide icon path) -->
   <path
     d="M32 12 L36.5 25.5 L50 30 L36.5 34.5 L32 48 L27.5 34.5 L14 30 L27.5 25.5 Z"
-    fill="#FAF7F0"
+    fill="#FFFFFF"
   />
-  <!-- Small accent dot in gold -->
-  <circle cx="48" cy="14" r="3.5" fill="#D4A058"/>
+  <!-- Small accent dot in gold (representing the US star) -->
+  <circle cx="48" cy="14" r="3.5" fill="#FFFFFF" opacity="0.9"/>
 </svg>

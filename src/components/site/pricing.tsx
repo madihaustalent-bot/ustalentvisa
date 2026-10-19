@@ -201,7 +201,7 @@ export function Pricing() {
         >
           All plans include the Visa Match quiz, Visa Compare tool, and access to the
           community. Upgrade, downgrade, or cancel from your dashboard at any time.
-          Pathrise is an educational platform and does not provide legal advice; Elite
+          US Talent Visa is an educational platform and does not provide legal advice; Elite
           members can be matched with licensed attorneys for case-specific guidance.
         </motion.p>
       </div>

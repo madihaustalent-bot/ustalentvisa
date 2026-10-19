@@ -115,7 +115,7 @@ export function Header() {
             <SheetContent side="right" className="w-[88vw] max-w-sm bg-background p-0">
               <SheetTitle className="sr-only">Navigation menu</SheetTitle>
               <SheetDescription className="sr-only">
-                Browse Pathrise sections and switch language.
+                Browse US Talent Visa sections and switch language.
               </SheetDescription>
               <div className="flex h-full flex-col">
                 <div className="flex items-center justify-between border-b border-border/60 px-5 py-4">

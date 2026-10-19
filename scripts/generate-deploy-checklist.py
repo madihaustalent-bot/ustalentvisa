@@ -1,7 +1,7 @@
 """
-Pathrise Deployment Checklist — branded PDF (3-4 pages, no cover).
+US Talent Visa Deployment Checklist — branded PDF (3-4 pages, no cover).
 
-Uses Pathrise brand palette (emerald + cream + gold) since this is a
+Uses US Talent Visa brand palette (emerald + cream + gold) since this is a
 brand asset, not freeform design.
 """
 
@@ -69,7 +69,7 @@ except Exception:
     pass
 
 # ----------------------------------------------------------------------------
-# Brand palette (Pathrise)
+# Brand palette (US Talent Visa)
 # ----------------------------------------------------------------------------
 # XL tier — backgrounds
 PAGE_BG = colors.HexColor("#FAF7F0")       # cream
@@ -244,7 +244,7 @@ class BrandHeader(Flowable):
         # Wordmark
         c.setFont("FreeSerif-Bold", 16)
         c.setFillColor(HEADER_FILL)
-        c.drawString(chip_x + chip_size + 10, chip_y + 22, "PATHRISE")
+        c.drawString(chip_x + chip_size + 10, chip_y + 22, "US TALENT VISA")
         c.setFont("FreeSerif", 9)
         c.setFillColor(TEXT_MUTED)
         c.drawString(
@@ -347,7 +347,7 @@ def draw_page_chrome(canvas, doc):
         canvas.drawString(
             doc.leftMargin,
             A4[1] - doc.topMargin + 12,
-            "PATHRISE  ·  DEPLOYMENT CHECKLIST",
+            "US TALENT VISA  ·  DEPLOYMENT CHECKLIST",
         )
         canvas.setFont("FreeSerif", 8)
         canvas.setFillColor(TEXT_MUTED)
@@ -371,7 +371,7 @@ def draw_page_chrome(canvas, doc):
     canvas.drawCentredString(
         A4[0] / 2,
         doc.bottomMargin - 18,
-        "Pathrise · AI-Powered Talent Visa Platform · Generated for launch",
+        "US Talent Visa · AI-Powered Talent Visa Platform · Generated for launch",
     )
     canvas.restoreState()
 
@@ -386,7 +386,7 @@ def build_story(doc_width: float):
     story.append(BrandHeader(doc_width))
     story.append(Spacer(1, 8))
     story.append(Paragraph("DEPLOYMENT CHECKLIST", KICKER_STYLE))
-    story.append(Paragraph("Launch Pathrise in under an hour.", TITLE_STYLE))
+    story.append(Paragraph("Launch US Talent Visa in under an hour.", TITLE_STYLE))
     story.append(Spacer(1, 4))
     story.append(
         Paragraph(
@@ -440,7 +440,7 @@ def build_story(doc_width: float):
     story.append(
         Paragraph(
             "Get your code onto GitHub and let Vercel auto-deploy it. By the end of this "
-            "phase you'll have a live preview URL like <b>pathrise-abc123.vercel.app</b>.",
+            "phase you'll have a live preview URL like <b>ustalentvisa-abc123.vercel.app</b>.",
             PHASE_INTRO,
         )
     )
@@ -449,9 +449,9 @@ def build_story(doc_width: float):
     steps_phase_1 = [
         (
             "1. Create a GitHub repository",
-            "Go to github.com/new. Name it <b>pathrise</b>. Set it to Public (or Private, "
+            "Go to github.com/new. Name it <b>ustalentvisa</b>. Set it to Public (or Private, "
             "your call). Do NOT initialize with README — leave it empty. Click <b>Create repository</b>.",
-            "GitHub shows a page with your repo URL: github.com/YOUR_USERNAME/pathrise",
+            "GitHub shows a page with your repo URL: github.com/YOUR_USERNAME/ustalentvisa",
         ),
         (
             "2. Connect your local code to GitHub",
@@ -468,7 +468,7 @@ def build_story(doc_width: float):
     story.append(
         Paragraph(
             '<font face="DejaVuSans" size="8">'
-            "git remote add origin https://github.com/YOUR_USERNAME/pathrise.git<br/>"
+            "git remote add origin https://github.com/YOUR_USERNAME/ustalentvisa.git<br/>"
             "git branch -M main<br/>"
             "git push -u origin main"
             "</font>",
@@ -485,8 +485,8 @@ def build_story(doc_width: float):
             "You land on the Vercel dashboard with a 'New Project' button.",
         ),
         (
-            "4. Import the pathrise repo",
-            "Click <b>Add New → Project</b>. Find <b>pathrise</b> in your repo list, click <b>Import</b>. "
+            "4. Import the ustalentvisa repo",
+            "Click <b>Add New → Project</b>. Find <b>ustalentvisa</b> in your repo list, click <b>Import</b>. "
             "Vercel auto-detects Next.js — leave everything default. Click <b>Deploy</b>.",
             "Build runs for ~90 seconds. You see 'Congratulations' with a preview URL.",
         ),
@@ -494,7 +494,7 @@ def build_story(doc_width: float):
             "5. Save your preview URL",
             "Copy the vercel.app URL Vercel gives you. This is your temporary public URL. "
             "Test it in an incognito window — the site should load instantly with HTTPS.",
-            "Site loads at https://pathrise-xxx.vercel.app with green padlock.",
+            "Site loads at https://ustalentvisa-xxx.vercel.app with green padlock.",
         ),
     ]
     for title, body, success in steps_phase_1b:
@@ -523,15 +523,15 @@ def build_story(doc_width: float):
     steps_phase_2 = [
         (
             "6. Buy the domain on Spaceship",
-            "Log in to <b>spaceship.com</b>. Search your domain (try pathrise.io, pathrisevisa.com, "
-            "usepathrise.com). Add to cart. <b>Skip every upsell</b>: website builder, professional "
+            "Log in to <b>spaceship.com</b>. Search your domain (try ustalentvisa.com, ustalentvisa.io, "
+            "ustalentvisa.co). Add to cart. <b>Skip every upsell</b>: website builder, professional "
             "email, SSL certificate (Vercel gives you a free auto-renewing one), premium DNS. "
             "Keep WHOIS Privacy ON. Checkout.",
             "You receive an order confirmation email and the domain appears in your Spaceship dashboard.",
         ),
         (
             "7. Open Vercel domain settings",
-            "In Vercel, open your pathrise project → <b>Settings → Domains</b>. Click <b>Add</b>, "
+            "In Vercel, open your ustalentvisa project → <b>Settings → Domains</b>. Click <b>Add</b>, "
             "type your domain (e.g. yourdomain.com), press Enter. When prompted to also add "
             "www, click <b>Add www subdomain</b>.",
             "Vercel shows a screen with two DNS records to add (an A record and a CNAME).",
@@ -840,7 +840,7 @@ def build_story(doc_width: float):
 
 
 def main():
-    output_path = "/home/z/my-project/download/Pathrise-Deployment-Checklist.pdf"
+    output_path = "/home/z/my-project/download/US-Talent-Visa-Deployment-Checklist.pdf"
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
 
     doc = SimpleDocTemplate(
@@ -850,10 +850,10 @@ def main():
         rightMargin=18 * mm,
         topMargin=20 * mm,
         bottomMargin=22 * mm,
-        title="Pathrise Deployment Checklist",
-        author="Pathrise",
-        subject="Step-by-step guide to deploy pathrise.io on Vercel + Spaceship",
-        creator="Pathrise Launch Toolkit",
+        title="US Talent Visa Deployment Checklist",
+        author="US Talent Visa",
+        subject="Step-by-step guide to deploy ustalentvisa.com on Vercel + Spaceship",
+        creator="US Talent Visa Launch Toolkit",
     )
     doc_width = A4[0] - 18 * mm - 18 * mm
 

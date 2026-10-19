@@ -1,9 +1,9 @@
-// Central content for the Pathrise unified visa platform.
+// Central content for the US Talent Visa platform.
 // Synthesized from analysis of USWALA, eb2niw.info, LevelUp EB1A Experts,
 // Tukki.ai, eb1greencard.info, and oscarsgreencard.com.
 
 export const PLATFORM = {
-  name: "Pathrise",
+  name: "US Talent Visa",
   tagline: "AI-Powered Talent Visa & Green Card Platform",
   promise:
     "One platform that takes you from \u201cAm I even eligible?\u201d to a USCIS-ready petition — combining AI drafting, expert-vetted opportunities, and a 15-year attorney bench, with or without a lawyer.",
@@ -195,7 +195,7 @@ export const STEPS = [
 
 export const TRANSFORMATION = {
   before: {
-    label: "Without Pathrise",
+    label: "Without US Talent Visa",
     points: [
       "Hours spent on Reddit threads and YouTube videos",
       "Three attorney consults, three different answers",
@@ -205,7 +205,7 @@ export const TRANSFORMATION = {
     ],
   },
   after: {
-    label: "With Pathrise",
+    label: "With US Talent Visa",
     points: [
       "5-minute quiz narrows 15+ pathways to your top 3",
       "AI Drafter tailored to your specific field and pathway",
@@ -354,7 +354,7 @@ export const COURSE_MODULES = [
 export const TESTIMONIALS = [
   {
     quote:
-      "I had been told by two attorneys that I needed an H-1B first. The Pathrise quiz flagged EB-2 NIW in 4 minutes — I filed 5 months later and was approved without an RFE.",
+      "I had been told by two attorneys that I needed an H-1B first. The US Talent Visa quiz flagged EB-2 NIW in 4 minutes — I filed 5 months later and was approved without an RFE.",
     name: "Dr. Aisha R.",
     title: "Computational biologist",
     route: "EB-2 NIW · approved in 7 months",
@@ -405,7 +405,7 @@ export const TESTIMONIALS = [
 export const FAQ = [
   {
     q: "Is this legal advice?",
-    a: "No. Pathrise is an educational and tooling platform. When you upgrade to Elite, you can be matched with a licensed immigration attorney for case-specific advice; the platform itself does not provide legal representation.",
+    a: "No. US Talent Visa is an educational and tooling platform. When you upgrade to Elite, you can be matched with a licensed immigration attorney for case-specific advice; the platform itself does not provide legal representation.",
   },
   {
     q: "I don't have a PhD or a Nobel Prize — can I still qualify?",
@@ -413,11 +413,11 @@ export const FAQ = [
   },
   {
     q: "Can I really self-petition without an employer?",
-    a: "Yes — for EB-1A, EB-2 NIW, O-1A, and EB-5. These categories do not require employer sponsorship or labor certification. Pathrise is built specifically for self-petitioners; you keep full control of your case from start to finish.",
+    a: "Yes — for EB-1A, EB-2 NIW, O-1A, and EB-5. These categories do not require employer sponsorship or labor certification. US Talent Visa is built specifically for self-petitioners; you keep full control of your case from start to finish.",
   },
   {
     q: "How is this different from hiring an immigration attorney?",
-    a: "Most attorneys charge $5K – $25K for a talent visa petition and deliver a single package. Pathrise gives you the diagnostic, drafting, and opportunity tools to do most of the work yourself — and optionally route the final package to a vetted attorney for review at a fraction of the cost.",
+    a: "Most attorneys charge $5K – $25K for a talent visa petition and deliver a single package. US Talent Visa gives you the diagnostic, drafting, and opportunity tools to do most of the work yourself — and optionally route the final package to a vetted attorney for review at a fraction of the cost.",
   },
   {
     q: "What happens if I get an RFE?",
@@ -428,7 +428,7 @@ export const FAQ = [
     a: "No — no one ethically can. What we guarantee is that you will file a stronger, better-documented petition than 95% of self-petitioners. Our 94% approval rate reflects members who complete the full Build phase before filing.",
   },
   {
-    q: "Which visa pathways does Pathrise support?",
+    q: "Which visa pathways does US Talent Visa support?",
     a: "15+ pathways including EB-1A, EB-1B, EB-1C, EB-2 NIW, EB-3, EB-5, O-1A, O-1B, L-1A, L-1B, H-1B, E-2, E-3, TN, J-1, and B-1/B-2. The Visa Match quiz will narrow these to your top three based on your background and goals.",
   },
   {

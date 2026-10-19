@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://pathrise.io";
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://ustalentvisa.com";
 
 // Anchor sections on the single-page site — these are the canonical URLs
 // we want Google to index. Update if you add new routes.

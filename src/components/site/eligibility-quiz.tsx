@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 
 // Lightweight global trigger — any component can call openQuiz()
-const QUIZ_EVENT = "pathrise:open-quiz";
+const QUIZ_EVENT = "ustalentvisa:open-quiz";
 
 export function openQuiz() {
   if (typeof window !== "undefined") {
