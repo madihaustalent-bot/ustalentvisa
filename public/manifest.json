@@ -1,0 +1,19 @@
+{
+  "name": "Pathrise — AI-Powered Talent Visa Platform",
+  "short_name": "Pathrise",
+  "description": "Eligibility in 5 minutes, AI-drafted petitions, expert-vetted opportunities, and full attorney support across 15+ visa pathways.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F0",
+  "theme_color": "#0E2A24",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity", "education"]
+}
